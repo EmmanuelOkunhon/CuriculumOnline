@@ -1,0 +1,68 @@
+
+body{
+	background-color: rgb(100, 149, 237);
+	color: Aqua;
+	font-family: Calibri;
+	background-image: url('http://tinyurl.com/kq5x5ff');
+}
+
+p{
+	color: White;
+}
+span{
+	color: White;
+	font-style: italic;
+}
+
+ul{
+	list-style-image: url('Fld.png')
+}
+
+ol{
+	list-style-image: url('Fld.png')
+}
+
+textarea{
+	background-color:transparent;
+	color:white;
+	
+}
+
+input{
+	background-color:transparent;
+	color:white;
+}
+
+#Paddstyle, #Paddstyle dd{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+#Paddstyle{
+	text-align: center;
+}
+
+#Paddstyle dt{
+	display:inline-block;
+}
+
+#Paddstyle dd li{
+	display:inherit;
+}
+
+#Paddstyle a {
+	text-decoration: none;
+	display: block;
+	color: White
+}
+
+#Paddstyle dd {
+	position: absolute;
+	left: -999em;
+	text-align: left;
+}
+
+#Paddstyle dt:hover dd {
+	left: auto;
+}
